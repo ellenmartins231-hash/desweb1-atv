@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Banco de Dados - Meu Portal de Notícias</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/noticia.css">
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <h1>Meu Portal de Notícias</h1>
+
+        <p>Programação, Tecnologia, Experiências e Cotidiano</p>
+
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="../index.html">Início</a>
+                </li>
+
+                <li>
+                    <a href="../hobbies.html">Hobbies</a>
+                </li>
+
+                <li>
+                    <a href="../perfil.html">Sobre mim</a>
+                </li>
+
+                <li>
+                    <a href="../contato.html">Contato</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <article class="noticia-completa">
+
+            <header>
+
+                <p class="categoria">
+                    Banco de Dados
+                </p>
+
+                <h2>
+                    Banco de dados ajuda a organizar informações de diferentes sistemas
+                </h2>
+
+                <p class="subtitulo">
+                    Entenda como os bancos de dados são utilizados para armazenar e consultar informações.
+                </p>
+
+                <p class="data-publicacao">
+                    Publicado em:
+                    <time datetime="2026-09-22">
+                        22 de setembro de 2026
+                    </time>
+                </p>
+
+            </header>
+
+
+            <figure class="imagem-noticia">
+
+                <img src="./img/banco-dados.jpeg" alt=" " >
+
+                <figcaption>
+                    Bancos de dados são utilizados para armazenar e organizar informações.
+                </figcaption>
+
+            </figure>
+
+
+            <div class="conteudo-noticia">
+
+                <p>
+                    Os bancos de dados fazem parte de muitos sistemas utilizados
+                    atualmente. Eles permitem armazenar informações de forma
+                    organizada e possibilitam que esses dados sejam consultados
+                    quando necessário.
+                </p>
+
+
+                <p>
+                    Em uma aplicação, diferentes informações podem precisar ser
+                    armazenadas, como nomes de usuários, produtos, pedidos,
+                    mensagens ou registros de atividades. O banco de dados
+                    permite organizar essas informações em estruturas que
+                    facilitam seu gerenciamento.
+                </p>
+
+
+                <h3>
+                    O que é um banco de dados?
+                </h3>
+
+
+                <p>
+                    Um banco de dados é uma coleção organizada de informações.
+                    Essas informações podem ser acessadas e modificadas por
+                    sistemas desenvolvidos para diferentes finalidades.
+                </p>
+
+
+                <h3>
+                    Bancos de dados relacionais
+                </h3>
+
+
+                <p>
+                    Nos bancos de dados relacionais, as informações são
+                    organizadas principalmente em tabelas. Cada tabela pode
+                    possuir diferentes colunas e registros, permitindo
+                    representar os dados de uma aplicação.
+                </p>
+
+
+                <p>
+                    O MySQL é um exemplo de sistema de gerenciamento de banco
+                    de dados relacional. Ele utiliza SQL, uma linguagem que
+                    permite realizar operações como inserir, consultar,
+                    atualizar e excluir informações.
+                </p>
+
+
+                <p>
+                    O conhecimento sobre bancos de dados é importante para
+                    profissionais de tecnologia porque muitas aplicações
+                    dependem de algum tipo de armazenamento de informações.
+                    Esse conteúdo também está relacionado ao desenvolvimento
+                    de sistemas e à programação.
+                </p>
+
+            </div>
+
+
+            <p class="voltar">
+
+                <a href="../index.html">
+                    Voltar para a página inicial
+                </a>
+
+            </p>
+
+
+            <footer class="avaliacao">
+
+                <h3>
+                    Avalie esta publicação
+                </h3>
+
+
+                <form action="#" method="post">
+
+                    <div class="campo-formulario">
+
+                        <label for="nome">
+                            Nome
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            minlength="3"
+                            maxlength="80"
+                            required
+                        >
+
+                    </div>
+
+
+                    <fieldset>
+
+                        <legend>
+                            Nota para a publicação
+                        </legend>
+
+
+                        <div>
+
+                            <input
+                                type="radio"
+                                id="nota1"
+                                name="nota"
+                                value="1"
+                                required
+                            >
+
+                            <label for="nota1">
+                                1 estrela
+                            </label>
+
+                        </div>
+
+
+                        <div>
+
+                            <input
+                                type="radio"
+                                id="nota2"
+                                name="nota"
+                                value="2"
+                            >
+
+                            <label for="nota2">
+                                2 estrelas
+                            </label>
+
+                        </div>
+
+
+                        <div>
+
+                            <input
+                                type="radio"
+                                id="nota3"
+                                name="nota"
+                                value="3"
+                            >
+
+                            <label for="nota3">
+                                3 estrelas
+                            </label>
+
+                        </div>
+
+
+                        <div>
+
+                            <input
+                                type="radio"
+                                id="nota4"
+                                name="nota"
+                                value="4"
+                            >
+
+                            <label for="nota4">
+                                4 estrelas
+                            </label>
+
+                        </div>
+
+
+                        <div>
+
+                            <input
+                                type="radio"
+                                id="nota5"
+                                name="nota"
+                                value="5"
+                            >
+
+                            <label for="nota5">
+                                5 estrelas
+                            </label>
+
+                        </div>
+
+                    </fieldset>
+
+
+                    <div class="campo-formulario">
+
+                        <label for="comentario">
+                            Comentário
+                        </label>
+
+                        <textarea
+                            id="comentario"
+                            name="comentario"
+                            minlength="10"
+                            maxlength="500"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit">
+                        Salvar avaliação
+                    </button>
+
+                </form>
+
+            </footer>
+
+        </article>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Projeto desenvolvido na disciplina de Desenvolvimento Web I
+        </p>
+
+        <p>
+            IFC - Campus Araquari
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
