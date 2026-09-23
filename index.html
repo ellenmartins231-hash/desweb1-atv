@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portal de Notícias</title>
 
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/global.css">
+
+<link rel="stylesheet" href="./css/reset.css">
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/global.css">
 
 </head>
 
@@ -19,267 +20,152 @@
     <h1>Meu Portal de Notícias</h1>
     <p>Programação, Tecnologia, Experiências e Cotidiano</p>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html" aria-current="page">Início</a>
-            </li>
-            <li>
-                <a href="hobbies.html">Hobbies</a>
-            </li>
-            <li>
-                <a href="perfil.html">Sobre mim</a>
-            </li>
-            <li>
-                <a href="contato.html">Contato</a>
-            </li>
-        </ul>
-    </nav>
+<nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="perfil.html">Sobre mim</a></li>
+                <li><a href="hobbies.html" aria-current="page">Hobbies</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
 </header>
 
 <main>
 
-    <section class="filtro-noticias">
+<section>
+    <header>
+        <p class="categoria">Desenvolvimento Web I</p>
+        <h2>De uma página de perfil a um portal de notícias</h2>
+        <p class="subtitulo">A evolução do projeto e a criação de novos conteúdos.</p>
+    </header>
 
-        <header>
-            <h2>Filtrar notícias</h2>
-        </header>
+    <article>
+        <figure class="imagem-publicacao">
+            <img src="./img/estrada.jpeg" alt="Estrada representando um novo caminho para o projeto">
+            <figcaption>Um novo caminho para o projeto de Desenvolvimento Web I.</figcaption>
+        </figure>
 
-        <form action="#" method="get">
+        <p>Na primeira aula criamos uma página de perfil. Agora, essa página fará parte de um portal de conteúdos sobre programação, tecnologia, hobbies e informações pessoais.</p>
 
-            <div>
-                <label for="busca">Pesquisar:</label>
+        <p>Para organizar os conteúdos, utilizamos as tags <strong>header</strong>, <strong>nav</strong>, <strong>main</strong>, <strong>section</strong>, <strong>article</strong> e <strong>footer</strong>.</p>
 
-                <input
-                    type="search"
-                    id="busca"
-                    name="busca"
-                    placeholder="Digite uma palavra-chave">
-            </div>
+        <p><a href="./noticias/noticia.html">Ler mais...</a></p>
 
-            <div>
-                <label for="categoria">Categoria:</label>
+        <footer>
+            <p>Publicado em: <time datetime="2026-08-21T21:06">21 de agosto de 2026 às 21:06</time></p>
+        </footer>
+    </article>
+</section>
 
-                <select id="categoria" name="categoria">
-                    <option value="">Todas</option>
-                    <option value="desenvolvimento-web">Desenvolvimento Web I</option>
-                    <option value="tecnologia">Tecnologia</option>
-                    <option value="programacao">Programação</option>
-                </select>
-            </div>
+<section>
+    <header>
+        <p class="categoria">Tecnologia</p>
+        <h2>Inteligência artificial transforma a forma como usamos a tecnologia</h2>
+        <p class="subtitulo">A IA está cada vez mais presente em atividades do nosso cotidiano.</p>
+    </header>
 
-            <div>
-                <label for="tecnologia">Tecnologia:</label>
+    <article>
+        <figure class="imagem-publicacao">
+            <img src="./img/ia.jpeg" alt="Imagem representando inteligência artificial">
+            <figcaption>A inteligência artificial está presente em diferentes áreas.</figcaption>
+        </figure>
 
-                <select id="tecnologia" name="tecnologia">
-                    <option value="">Todas</option>
-                    <option value="html">HTML</option>
-                    <option value="css">CSS</option>
-                    <option value="ia">Inteligência Artificial</option>
-                    <option value="programacao">Programação</option>
-                </select>
-            </div>
+        <p>A inteligência artificial vem ganhando espaço no nosso cotidiano. Atualmente, ela pode ser encontrada em aplicativos, assistentes virtuais, ferramentas de estudo e diversos outros serviços.</p>
 
-            <button type="submit">Filtrar notícias</button>
+        <p>Com o avanço dessa tecnologia, novas ferramentas estão surgindo e mudando a forma como estudamos, trabalhamos e utilizamos diferentes recursos tecnológicos.</p>
 
-        </form>
+        <p><a href="./noticias/noticia-ia.html">Ler mais...</a></p>
 
-    </section>
+        <footer>
+            <p>Publicado em: <time datetime="2026-08-28">28 de agosto de 2026</time></p>
+        </footer>
+    </article>
+</section>
 
+<section>
+    <header>
+        <p class="categoria">Programação</p>
+        <h2>HTML e CSS são os primeiros passos para criar páginas na internet</h2>
+        <p class="subtitulo">Entenda a função dessas duas tecnologias no desenvolvimento web.</p>
+    </header>
 
-    <section>
+    <article>
+        <figure class="imagem-publicacao">
+            <img src="./img/programacao.jpeg" alt="Computador com código de programação">
+            <figcaption>HTML e CSS são utilizados na criação de páginas web.</figcaption>
+        </figure>
 
-        <header>
-            <p class="categoria">Desenvolvimento Web I</p>
+        <p>O HTML é utilizado para estruturar o conteúdo de uma página, enquanto o CSS permite modificar sua aparência, como cores, tamanhos, espaçamentos e posicionamento dos elementos.</p>
 
-            <h2>
-                De uma página de perfil a um portal de notícias
-            </h2>
+        <p>Por isso, essas duas tecnologias são muito importantes para quem está começando a estudar desenvolvimento web e programação.</p>
 
-            <p class="subtitulo">
-                A evolução do projeto e a criação de novos conteúdos.
-            </p>
-        </header>
+        <p><a href="./noticias/noticia-programacao.html">Ler mais...</a></p>
 
-        <article>
+        <footer>
+            <p>Publicado em: <time datetime="2026-08-28">28 de agosto de 2026</time></p>
+        </footer>
+    </article>
+</section>
 
-            <figure class="imagem-publicacao">
-                <img
-                    src="./img/estrada.jpeg"
-                    alt="Estrada representando um novo caminho para o projeto">
+<section class="filtro-noticias">
 
-                <figcaption>
-                    Um novo caminho para o projeto de Desenvolvimento Web I.
-                </figcaption>
-            </figure>
+    <header>
+        <h2>Encontre uma notícia</h2>
+        <p>Pesquise por uma palavra ou escolha uma categoria.</p>
+    </header>
 
-            <p>
-                Na primeira aula criamos uma página de perfil.
-                Agora, essa página fará parte de um portal de conteúdos
-                sobre programação, tecnologia, hobbies e informações pessoais.
-            </p>
+    <form action="#" method="get">
 
-            <p>
-                Para organizar os conteúdos, utilizamos as tags
-                <strong>header</strong>,
-                <strong>nav</strong>,
-                <strong>main</strong>,
-                <strong>section</strong>,
-                <strong>article</strong> e
-                <strong>footer</strong>.
-            </p>
+        <div>
+            <label for="busca">Pesquisar:</label>
+            <input
+                type="search"
+                id="busca"
+                name="busca"
+                placeholder="Digite uma palavra-chave">
+        </div>
 
-            <p>
-                <a href="./noticias/noticia.html">
-                    Ler mais...
-                </a>
-            </p>
+        <div>
+            <label for="categoria">Categoria:</label>
+            <select id="categoria" name="categoria">
+                <option value="">Todas</option>
+                <option value="desenvolvimento-web">Desenvolvimento Web I</option>
+                <option value="tecnologia">Tecnologia</option>
+                <option value="programacao">Programação</option>
+            </select>
+        </div>
 
-            <footer>
-                <p>
-                    Publicado em:
-                    <time datetime="2026-08-21T21:06">
-                        21 de agosto de 2026 às 21:06
-                    </time>
-                </p>
-            </footer>
+        <div>
+            <label for="tecnologia">Tecnologia:</label>
+            <select id="tecnologia" name="tecnologia">
+                <option value="">Todas</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="ia">Inteligência Artificial</option>
+                <option value="programacao">Programação</option>
+            </select>
+        </div>
 
-        </article>
+        <button type="submit">Filtrar notícias</button>
 
-    </section>
+    </form>
 
-
-    <section>
-
-        <header>
-            <p class="categoria">Tecnologia</p>
-
-            <h2>
-                Inteligência artificial transforma a forma como usamos a tecnologia
-            </h2>
-
-            <p class="subtitulo">
-                A IA está cada vez mais presente em atividades do nosso cotidiano.
-            </p>
-        </header>
-
-        <article>
-
-            <figure class="imagem-publicacao">
-                <img
-                    src="./img/ia.jpeg"
-                    alt="Imagem representando inteligência artificial">
-
-                <figcaption>
-                    A inteligência artificial está presente em diferentes áreas.
-                </figcaption>
-            </figure>
-
-            <p>
-                A inteligência artificial vem ganhando espaço no nosso cotidiano.
-                Atualmente, ela pode ser encontrada em aplicativos, assistentes
-                virtuais, ferramentas de estudo e diversos outros serviços.
-            </p>
-
-            <p>
-                Com o avanço dessa tecnologia, novas ferramentas estão surgindo
-                e mudando a forma como estudamos, trabalhamos e utilizamos
-                diferentes recursos tecnológicos.
-            </p>
-
-            <p>
-                <a href="./noticias/noticia-ia.html">
-                    Ler mais...
-                </a>
-            </p>
-
-            <footer>
-                <p>
-                    Publicado em:
-                    <time datetime="2026-08-28">
-                        28 de agosto de 2026
-                    </time>
-                </p>
-            </footer>
-
-        </article>
-
-    </section>
-
-
-    <section>
-
-        <header>
-            <p class="categoria">Programação</p>
-
-            <h2>
-                HTML e CSS são os primeiros passos para criar páginas na internet
-            </h2>
-
-            <p class="subtitulo">
-                Entenda a função dessas duas tecnologias no desenvolvimento web.
-            </p>
-        </header>
-
-        <article>
-
-            <figure class="imagem-publicacao">
-                <img
-                    src="./img/programacao.jpeg"
-                    alt="Computador com código de programação">
-
-                <figcaption>
-                    HTML e CSS são utilizados na criação de páginas web.
-                </figcaption>
-            </figure>
-
-            <p>
-                O HTML é utilizado para estruturar o conteúdo de uma página,
-                enquanto o CSS permite modificar sua aparência, como cores,
-                tamanhos, espaçamentos e posicionamento dos elementos.
-            </p>
-
-            <p>
-                Por isso, essas duas tecnologias são muito importantes para
-                quem está começando a estudar desenvolvimento web e programação.
-            </p>
-
-            <p>
-                <a href="./noticias/noticia-programacao.html">
-                    Ler mais...
-                </a>
-            </p>
-
-            <footer>
-                <p>
-                    Publicado em:
-                    <time datetime="2026-08-28">
-                        28 de agosto de 2026
-                    </time>
-                </p>
-            </footer>
-
-        </article>
-
-    </section>
+</section>
 
 </main>
 
-
 <footer>
-    <p>
-        Projeto desenvolvido na disciplina de Desenvolvimento Web I
-    </p>
+    <p>Projeto desenvolvido na disciplina de Desenvolvimento Web I</p>
 
-    <p>
-        <a
-            href="https://araquari.ifc.edu.br/"
-            target="_blank"
-            rel="noopener noreferrer">
-            IFC - Campus Araquari
-        </a>
-    </p>
+<p>
+    <a href="https://araquari.ifc.edu.br/" target="_blank" rel="noopener noreferrer">
+        IFC - Campus Araquari
+    </a>
+</p>
+
 </footer>
 
 </body>
+
 </html>
