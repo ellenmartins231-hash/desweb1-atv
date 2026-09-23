@@ -1,0 +1,173 @@
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+main > section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+section > header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section > header h2 {
+    color: #173b82;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+section > header p {
+    line-height: 1.6;
+}
+
+figure {
+    margin: 0 0 25px 0;
+}
+
+figure img {
+    display: block;
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+figcaption {
+    background-color: #eee;
+    color: #666;
+    font-size: 0.9em;
+    padding: 10px;
+    text-align: center;
+}
+
+article p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+time {
+    color: #666;
+    font-size: 0.9em;
+}
+
+a {
+    color: #173b82;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    outline: 3px solid #3169d8;
+    outline-offset: 3px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+fieldset {
+    border: 1px solid #d8d8d8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    color: #173b82;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+form p {
+    margin-bottom: 10px;
+}
+
+input:focus,
+textarea:focus {
+    outline: 3px solid #b8d4ff;
+    border-color: #173b82;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #3169d8;
+}
+
+button {
+    background-color: #173b82;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #102563;
+}
+
+button:focus-visible {
+    outline: 3px solid #b8d4ff;
+    outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 0 10px;
+    }
+
+    main > section {
+        padding: 18px;
+    }
+
+    section > header h2 {
+        font-size: 1.6rem;
+    }
+
+    figure img {
+        max-height: 300px;
+    }
+
+    fieldset {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
